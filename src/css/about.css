@@ -1,4 +1,62 @@
-.about {
-    padding: 20px 0;
-    background-color: rgb(231, 229, 118);
+.about {}
+
+.about-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about-title {
+    margin-bottom: 32px;
+}
+
+.text-container {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+
+.right-text {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+
+.about-text {
+    letter-spacing: 0.16px;
+}
+
+@media screen and (min-width: 835px) {
+    .about-container {
+        padding-top: 128px;
+        padding-bottom: 112px;
+    }
+
+    .about-title {
+        margin-bottom: 64px;
+    }
+
+    .text-container {
+        flex-direction: row;
+    }
+
+    .text-container>* {
+        flex: 1;
+        flex-basis: 369px;
+    }
+
+    .right-text {
+        gap: 26px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .about-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .text-container {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
 }
