@@ -2,3 +2,17 @@
     padding: 20px 0;
     background-color: rgb(95, 231, 68);
 }
+
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
